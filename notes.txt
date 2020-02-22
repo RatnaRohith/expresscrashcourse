@@ -1,0 +1,22 @@
+(Backend framework)Express is a fast minimalist web framework for Node.js
+Server side or Backend
+Used for both server rendered applications as well as API/microservices
+Full control of request and response
+
+//Prerequistes
+HTTP
+JSON
+High order array methods
+Arrow Functions
+
+Handling requests/routes is simple
+app.get(), app.post(), app.put(), app.delete();
+Access to params,query strings,url parts etc;
+express has a router so we can seperate files and export
+parse through using body parser
+
+Middleware functions are functions that have access to the request and response object. 
+Express has built in middleqare but middelware also comes from 3rd party packages as well as custom Middleware.
+Execute any code
+Make changes to the request/response objects
+call next middleware in the stack.
