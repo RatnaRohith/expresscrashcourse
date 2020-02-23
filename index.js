@@ -12,6 +12,8 @@ const app = express();
 app.get('/api/members', (req,res) => {
     res.json(members);
 });
+//get all members
+app.get('/api/members',(req,res) => res.json(members));
 
 //Get  single member
 app.get('/api/members/:id',(req,res) => {
